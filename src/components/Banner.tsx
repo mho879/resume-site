@@ -9,7 +9,7 @@ const Banner = () => {
             Marco Ho
           </h1>
           <p className="mt-2 text-lg text-gray-600">
-            AWS Cloud and Backend Developer.  Proof that CICD works.
+            AWS Cloud and Backend Developer
           </p>
         </div>
       </div>
