@@ -18,10 +18,10 @@ phases:
       - echo Build completed successfully
       - ls -la
       - pwd
-      - ls -la build
+      - ls -la dist
 
 artifacts:
   files:
     - '**/*'
-  base-directory: 'build'
+  base-directory: 'dist'
   discard-paths: no
