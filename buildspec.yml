@@ -1,14 +1,24 @@
 version: 0.2
+
 phases:
-  install:
+  pre_build:
     commands:
-      - echo Installing dependencies...
+      - echo Installing source NPM dependencies...
       - npm install
+  
   build:
     commands:
+      - echo Build started on `date`
       - echo Building the React app...
       - npm run build
+      - echo Build completed on `date`
+  
+  post_build:
+    commands:
+      - echo Build completed successfully
+
 artifacts:
   files:
     - '**/*'
-  base-directory: build  # The output directory for a React build
+  base-directory: 'build'
+  discard-paths: no
