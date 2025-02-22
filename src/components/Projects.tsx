@@ -11,7 +11,8 @@ const projects = [
       "Documented meeting minutes for client, team, and supervisor sessions"
     ],
     technologies: ['React', 'Typescript', 'AWS SES', 'AWS S3', 'AWS Lambda', 'Python', 'GitHub'],
-    awsServices: ['SES', 'S3', 'Lambda']
+    awsServices: ['SES', 'S3', 'Lambda'],
+    github: 'https://github.com/Vero-Ventures/clasibot/tree/main/src/email-monitoring'
   },
   {
     title: 'TimeTrack – Academic Project',
@@ -22,7 +23,8 @@ const projects = [
       'Provided solutions and advice on various Amazon Web Services within a team of 10 developers',
     ],
     technologies: ['GitHub', 'Python', 'Node.js'],
-    awsServices: ['SES', 'S3', 'Lambda', 'API Gateway', 'Amplify', 'CodePipeline', 'CodeBuild', 'Cognito', ' SNS', 'SQS', 'Cloudwatch', 'IAM']
+    awsServices: ['SES', 'S3', 'Lambda', 'API Gateway', 'Amplify', 'CodePipeline', 'CodeBuild', 'Cognito', ' SNS', 'SQS', 'Cloudwatch', 'IAM'],
+    github: 'https://github.com/iwen-sue/comp4968-project-employee'
   },
   {
     title: 'QuickQueue App - Academic Project',
@@ -32,7 +34,8 @@ const projects = [
       'Optimized API endpoints and backend logic, ensuring secure user workflows and seamless microservice integration using AWS API Gateway and Lambda'
     ],
     technologies: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'jQuery', 'Express.js', 'EJS', 'MOngoDB', 'IGDB API', 'OpenAI'],
-    awsServices: []
+    awsServices: [],
+    github: ''
   }
 ];
 
@@ -72,6 +75,16 @@ const Projects = () => {
                         {service}
                       </span>
                     ))}
+                  </div>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-gray-600 hover:text-gray-900"
+                    >
+                      <Github></Github>
+                    </a>
                   </div>
                 </div>
               </div>
