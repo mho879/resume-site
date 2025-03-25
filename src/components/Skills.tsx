@@ -11,7 +11,7 @@ const skillCategories = [
   },
   {
     title: 'DevOps',
-    skills: ['Docker', 'CI/CD', 'Git', 'Jenkins', 'AWS']
+    skills: ['Docker', 'CI/CD', 'Git', 'Jenkins', 'AWS', 'Bash']
   },
   {
     title: 'AWS',
