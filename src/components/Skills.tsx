@@ -2,12 +2,8 @@ import React from 'react';
 
 const skillCategories = [
   {
-    title: 'Frontend',
-    skills: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'HTML/CSS']
-  },
-  {
-    title: 'Backend',
-    skills: ['Node.js', 'Express', 'RESTful APIs', 'Python', 'Java', 'C']
+    title: 'Developer Technologies',
+    skills: ['Python', 'Java', 'C', 'Kotlin', 'RESTful APIs', 'React', 'TypeScript', 'Node.js', 'Express', 'Tailwind CSS', 'HTML/CSS', '1+ years experience with OOP']
   },
   {
     title: 'Database',
