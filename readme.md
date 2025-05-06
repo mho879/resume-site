@@ -1,4 +1,11 @@
-Documentation for deployingAWS CodePipeline
+# Resume Website #
+
+This is the repository for my resume website.  The website was developed in React was deployed on AWS S3 via AWS Code Pipeline.  This website now being hosted via Vercel.  I have left the following documentation up for future reference.
+
+
+## Documentation for deploying AWS CodePipeline ##
+**Note:** This website is no longer being hosted via AWS CodePipeline but via Vercel for pricing reasons.  The following documentation has been left available for future reference.
+
 1. Introduction\
     This document outlines the architecture and setup of the AWS CodePipeline for continuous integration and continuous deployment (CI/CD) of the React application. It includes instructions on how to set up the pipeline, how to maintain it, and common troubleshooting steps.
 
