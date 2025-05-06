@@ -1,9 +1,9 @@
 # Resume Website #
 
 This is the repository for my resume website.  The website was developed in React was deployed on AWS S3 via AWS Code Pipeline.  This website now being hosted via Vercel.  I have left the following documentation up for future reference.
+<br/><br/>
 
-
-## Documentation for deploying AWS CodePipeline ##
+## Documentation for deploying via AWS CodePipeline and S3 ##
 **Note:** This website is no longer being hosted via AWS CodePipeline but via Vercel for pricing reasons.  The following documentation has been left available for future reference.
 
 1. Introduction\
